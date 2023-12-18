@@ -1,0 +1,211 @@
+body {
+    color: #837AF9;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header, footer {
+    background-color: #E3EEFF;
+    border-radius: 500px; 
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 250px;
+    padding-left: 50px;
+}
+
+header h1{
+    padding-right: 70px;
+}
+.titulop2{
+    align-items: flex;
+}
+.google{
+     width: 40px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.tarefa {
+    background-color: #E3EEFF;
+    border-radius: 500px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box; 
+}
+.conteudo-tarefa {
+    flex: 1;
+}
+.tarefa h2 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.tarefa p {
+    font-size: 18px;
+    margin-top: 10px 0;
+}
+
+.apagar{
+    background-color: #837AF9; 
+    color: #FFFFFF; 
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.adicionar {
+    background-color: #837AF9;
+    color: #FFFFFF; 
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+main aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 40px;
+}
+
+main aside h3 {
+    font-size: 16px;
+    border-top: 2px solid #837AF9; 
+    width: 80%; 
+    padding-top: 20px; 
+}
+main aside p {
+    text-align: justify; 
+    width: 80%; 
+    margin: 0 auto; 
+    padding-top: 20px;
+}
+
+
+img {
+    max-width: 90%;
+    padding: 35px;
+    height: auto;
+    width: 400px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+}
+
+.logininf input {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E3EEFF;
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    color: #837AF9;
+}
+
+.loginsup input {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    margin-top: 12px;
+    height: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid #837AF9; 
+    color: #E3EEFF;
+    max-width: 200px;
+}
+
+form input[type="submit"] {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #837AF9;
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    color: #E3EEFF;
+    width: 40%;
+    margin: 20px auto 0;
+    display: block;
+}
+
+
+form input[type="submit"]:active {
+    background-color: #6A7C94;
+    color: #FFFFFF;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+footer img {
+    width: 200px;
+    padding: 25px;
+
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+footer img {
+    width: 170px;
+padding-left: 80px;
+}
+
+footer p {
+    padding-right: 80px; 
+}
+
