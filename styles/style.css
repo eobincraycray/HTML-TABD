@@ -1,3 +1,4 @@
+/* Estilos gerais */
 body {
     color: #837AF9;
     font-family: 'Montserrat', sans-serif;
@@ -6,12 +7,13 @@ body {
     padding: 15px;
 }
 
+/* Estilos do cabeçalho e rodapé */
 header, footer {
     background-color: #E3EEFF;
     border-radius: 500px; 
-
 }
 
+/* Estilos do cabeçalho */
 header {
     display: flex;
     flex-direction: row;
@@ -19,22 +21,29 @@ header {
     align-items: center;
 }
 
+/* Estilos dos itens do menu */
+li {
+    display: inline-block;
+    margin: 10px;
+    background-color: #837AF9;
+    border-radius: 500px;
+    padding: 10px;
+    color: #E3EEFF;
+}
+
+/* Estilos da logo */
 .logo {
     width: 250px;
     padding-left: 50px;
 }
 
-header h1{
-    padding-right: 70px;
-}
-.titulop2{
-    align-items: flex;
-}
-.google{
-     width: 40px;
+/* Estilos do botão Google */
+.google {
+    width: 40px;
     padding: 0px;
 }
 
+/* Estilos da seção principal */
 main {
     display: flex;
     flex-direction: row;
@@ -43,57 +52,7 @@ main {
     text-align: justify;
 }
 
-.main2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding-bottom: 50px;
-}
-
-.tarefa {
-    background-color: #E3EEFF;
-    border-radius: 500px;
-    padding: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    box-sizing: border-box; 
-}
-.conteudo-tarefa {
-    flex: 1;
-}
-.tarefa h2 {
-    font-size: 24px;
-    margin: 0px;
-}
-
-.tarefa p {
-    font-size: 18px;
-    margin-top: 10px 0;
-}
-
-.apagar{
-    background-color: #837AF9; 
-    color: #FFFFFF; 
-    padding: 10px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-}
-.adicionar {
-    background-color: #837AF9;
-    color: #FFFFFF; 
-    padding: 10px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-
-}
-
+/* Estilos da seção lateral esquerda */
 main aside {
     display: flex;
     flex-direction: column;
@@ -102,16 +61,20 @@ main aside {
     text-align: center;
 }
 
+/* Estilos do título na seção lateral esquerda */
 main h2 {
     font-size: 40px;
 }
 
+/* Estilos do subtítulo na seção lateral esquerda */
 main aside h3 {
     font-size: 16px;
     border-top: 2px solid #837AF9; 
     width: 80%; 
     padding-top: 20px; 
 }
+
+/* Estilos do parágrafo na seção lateral esquerda */
 main aside p {
     text-align: justify; 
     width: 80%; 
@@ -119,7 +82,7 @@ main aside p {
     padding-top: 20px;
 }
 
-
+/* Estilos das imagens */
 img {
     max-width: 90%;
     padding: 35px;
@@ -127,58 +90,7 @@ img {
     width: 400px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    max-width: 400px;
-}
-
-.logininf input {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #E3EEFF;
-    margin-top: 20px;
-    height: 20px;
-    padding: 15px;
-    border-radius: 20px;
-    border: none;
-    font-size: 15px;
-    color: #837AF9;
-}
-
-.loginsup input {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #FFFFFF;
-    margin-top: 12px;
-    height: 10px;
-    padding: 15px;
-    border-radius: 20px;
-    border: 2px solid #837AF9; 
-    color: #E3EEFF;
-    max-width: 200px;
-}
-
-form input[type="submit"] {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #837AF9;
-    margin-top: 20px;
-    height: 20px;
-    padding: 15px;
-    border-radius: 20px;
-    border: none;
-    font-size: 15px;
-    color: #E3EEFF;
-    width: 40%;
-    margin: 20px auto 0;
-    display: block;
-}
-
-
-form input[type="submit"]:active {
-    background-color: #6A7C94;
-    color: #FFFFFF;
-}
-
+/* Estilos do rodapé */
 footer {
     display: flex;
     flex-direction: row;
@@ -187,25 +99,136 @@ footer {
     text-align: center;
 }
 
-footer img {
-    width: 200px;
-    padding: 25px;
-
-}
-
-
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-}
-
+/* Estilos da imagem no rodapé */
 footer img {
     width: 170px;
-padding-left: 80px;
+    padding-left: 80px;
 }
 
+/* Estilos do parágrafo no rodapé */
 footer p {
     padding-right: 80px; 
 }
 
+
+
+/* Estilos da aba de Login */
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login_form {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+#form_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#form_header h1 {
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+#form_header h1::before {
+    position: absolute;
+    content: '';
+    width: 40%;
+    height: 3px;
+    background-color:#837AF9;
+    bottom: 4px;
+    border-radius: 5px;
+}
+
+#mode_icon {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#social_media {
+    display: flex;
+    justify-content: space-around;
+}
+
+#social_media img {
+    width: 35px;
+}
+
+#social_media img:hover {
+    transform: scale(1.2);
+}
+
+#inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-box>label {
+    font-size: 14px;
+    color: #837AF9;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    border-bottom: 1px solid #837AF9;
+    cursor: text;
+}
+
+.input-field i {
+    font-size: 18px;
+    cursor: text;
+    color: #837AF9;
+} 
+
+.input-field input {
+    border: none;
+    width: 260px;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 0px 5px;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+#forgot_password a {
+    text-decoration: none;
+    color: #837AF9;
+    font-size: 12px;
+}
+
+#forgot_password a:hover {
+    color: #837AF9;
+}
+
+#login_button {
+    border: none;
+    background: #837AF9;
+    padding: 7px;
+    border-radius: 500px;
+    color: #E3EEFF;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#login_button:hover {
+    transform: scale(1.05);
+}
+/* FIM Estilos da aba de Login */

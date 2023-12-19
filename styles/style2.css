@@ -1,0 +1,113 @@
+/* Estilos Gerais */
+body {
+    color: #837AF9;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* Estilos do Cabeçalho e Rodapé */
+header, footer {
+    background-color: #E3EEFF;
+    border-radius: 500px;
+}
+
+/* Estilos do Cabeçalho */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 50px;
+    padding-left: 50px;
+}
+
+header h1 {
+    padding-right: 70px;
+}
+
+/* Estilos da Página Principal (Main) */
+.titulop2 {
+    align-items: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+/* Estilos das Tarefas */
+.tarefa {
+    background-color: #E3EEFF;
+    border-radius: 500px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.conteudo-tarefa {
+    flex: 1;
+}
+
+.tarefa h2 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.tarefa p {
+    font-size: 18px;
+    margin-top: 10px 0;
+}
+
+.apagar {
+    background-color: #837AF9;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.adicionar {
+    background-color: #837AF9;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Estilos do Rodapé */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+footer img {
+    width: 200px;
+    padding: 25px;
+}
+
+footer img {
+    width: 170px;
+    padding-left: 80px;
+}
+
+footer p {
+    padding-right: 80px;
+}
